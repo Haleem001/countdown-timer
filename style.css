@@ -36,6 +36,21 @@ body, html {
     max-width: 600px;
     width: 100%;
 }
+#countdown-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    background: #68b4f1cc;
+    color: #130303;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
 
 #countdown div {
     margin: 10px;
@@ -43,6 +58,15 @@ body, html {
 }
 
 #countdown span {
+    font-size: 3rem;
+    display: block;
+}
+#countdown-head div {
+    margin: 10px;
+    flex: 1 1 100px;
+}
+
+#countdown-head span {
     font-size: 3rem;
     display: block;
 }

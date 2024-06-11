@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
     <div class="background">
-        <!-- <img src="img_2jpg.jpg" alt="Logo" id="logo"> -->
+         <div id="countdown-head">
+        Days until Graduation
+    </div>
         <div id="countdown">
             <div><span id="days"></span>Days</div>
             <div><span id="hours"></span>Hours</div>
@@ -18,5 +21,10 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script>
+        // Disable scrolling
+        document.body.style.overflow = 'hidden';
+        document.documentElement.style.overflow = 'hidden';
+    </script>
 </body>
 </html>
